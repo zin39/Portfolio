@@ -1,27 +1,34 @@
-# Portfolio
+# Portfolio Website For Karan Raj Gupta
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
+This is my first project in which I will show my skills on angular 18 , Docker , AWS and Backend with node and express. In this web page user will know about me and what I m capable of doing. Lets make a simple web page with small description about myself. 
+In this hero section , there will be my name a short info and my skills . Also a button which will help users download my CV.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+### Day 1 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+** Initializing the project and setting it up on git **
 
-## Build
+Steps for installing Angular 18 and bootstrap .
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+--First Download npm manager using 
+      - brew install node
 
-## Running unit tests
+--Second Download angular 18 using npm package manager  
+      - npm install -g @angular/cli
+      **Here -g stands for global.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+--Third lets start a project. 
+      - ng new Portfolio
 
-## Running end-to-end tests
+--Now lets install bootstrap  
+      - npm i bootstrap
+    [Got 3 sever Vulnerabilites. But now lets ignore it]
+    [Now need to add bootstrap to styles in angular.json. We can do this by adding "node_modules/bootstrap/dist/css/bootstrap.min.js" 
+    Just after styles also we need to add javascript in script so that simple we can make dynamic . To do this lets add 
+    node_modules/bootstrap/dist/js/bootstrap.min.js" in the script section of angular.json]
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+    ## what we want to do is make my name Karan Raj Gupta dynamic so that i can make changes to in .ts file and changes can 
+       be seen in Website. 
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
