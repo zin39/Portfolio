@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  /* Light Theme Colors */
+  --light-background: #FFFFFF;
+  --light-text: #333333;
+  --light-primary-accent: #007BFF;
+  --light-secondary-accent: #6C757D;
+
+  /* Dark Theme Colors */
+  --dark-background: #1A1A1A;
+  --dark-text: #E0E0E0;
+  --dark-primary-accent: #1E90FF;
+  --dark-secondary-accent: #A9A9A9;
+
+  /* Font Families */
+  --font-heading: 'Montserrat', sans-serif;
+  --font-body: 'Open Sans', sans-serif;
+}
+
+/* Example Styles */
+body {
+  font-family: var(--font-body);
+  background-color: var(--light-background);
+  color: var(--light-text);
+}
+
+/* Dark Theme Styles */
+body.dark-theme {
+  background-color: var(--dark-background);
+  color: var(--dark-text);
+}

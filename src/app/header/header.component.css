@@ -1,0 +1,44 @@
+/*
+.navbar {
+  background-color: #343a40;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+  text-decoration: none;
+  border-bottom: 2px solid #007bff;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+**/
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.dwnload {
+  background-color: #7F8CD9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dwnload:hover {
+  background-color: #6097c7;
+}

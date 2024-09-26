@@ -1,0 +1,33 @@
+#projects {
+  padding: 100px 0;
+  background-color: #f8f9fa;
+}
+
+#projects h2 {
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+#projects .card {
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+#projects .card:hover {
+  transform: translateY(-10px);
+}
+
+#projects .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+#projects .card-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#projects .card-text {
+  margin-bottom: 20px;
+}

@@ -31,4 +31,33 @@ Steps for installing Angular 18 and bootstrap .
     ## what we want to do is make my name Karan Raj Gupta dynamic so that i can make changes to in .ts file and changes can 
        be seen in Website. 
 
+--Now lets setup this project on github.
+  [-- git remote add origin git@github.com:zin39/Portfolio.git
+  -- (I did "git push -u origin main" and i ended up with error "error: src refspec main does not match any error: failed to push 
+      some refs to 'github.com:zin39/Portfolio.git'")]
+       This error occured because there was no branch named "main". So this error occured. So to overcome this I first did "git branch".
+        which showed me the available branches and master branch was seen . Afte that we followed this steps.
+  -- git add .
+  -- git commit -m "This is a Portfolio Website"
+  -- git push -u origin main
+
+Like this we setup our github project. 
+
+After these steps we are going to work with navbar first. 
+
+## So to work with navbar i  m going to use bootstrap.
+  while searching for methods to make navbar i ended up searching mdbootstrap which will help build me a navbar . In the navbar i m going to keep items like -home -project and -skills.
+
+### Day 2
+
+Today we found a navbar which is simple and easy to apply from "https://mdbootstrap.com/docs/standard/navigation/navbar/examples-and-customization/#section-5"
+
+[Today when I was inserting a logo in the navbar I faced an error. When I put the location of the logo in src. It wasn't apearing but when I added "output": "public" in assests of angular.json it started working.]
+
+Another issue that we found today was the toggle button was not working even though i had added "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" this in the script section. 
+Later i figured out that we need to add data-bs-toggle and data-bs-target in button for navbar toggler.
+
+When I was trying to change color for the button of Download CV . It wasnot working 
+
+
 
