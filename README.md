@@ -57,7 +57,9 @@ Today we found a navbar which is simple and easy to apply from "https://mdbootst
 Another issue that we found today was the toggle button was not working even though i had added "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" this in the script section. 
 Later i figured out that we need to add data-bs-toggle and data-bs-target in button for navbar toggler.
 
-When I was trying to change color for the button of Download CV . It wasnot working 
+### Day 3 
 
+So when i started the journey of making my webpage . I figured out something was missing . Making website without any plan is difficult. We need some plans to 
+make our project smoothly. So I decided to learn figma and make a website design and start from there .
 
 
