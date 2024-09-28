@@ -62,4 +62,30 @@ Later i figured out that we need to add data-bs-toggle and data-bs-target in but
 So when i started the journey of making my webpage . I figured out something was missing . Making website without any plan is difficult. We need some plans to 
 make our project smoothly. So I decided to learn figma and make a website design and start from there .
 
+    ## First Step Fonts
+
+        Now for our portfolio website lets try to figure out some fonts. 
+Font link (https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet")
+
+Headings: Montserrat (or Raleway)
+Subheadings: Poppins
+Body Text: Roboto (or Open Sans)
+Code Blocks: Fira Code
+UI/Navigation: Inter
+Accents (Optional): Merriweather
+
+These are some fonts which I m going to use for my project. 
+
+    ## Now lets work with some colors.
+Primary Color: Navy Blue (#001F3F)
+Accent Color 1: Light Teal (#39CCCC)
+Accent Color 2: Soft Yellow (#FFDC00)
+Background Color: Off-White (#F4F4F4)
+Text Color: Dark Gray (#333333)
+Button Color: Navy Blue with hover in Light Teal
+
+
+
+
+
 
