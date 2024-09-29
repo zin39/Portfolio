@@ -85,6 +85,12 @@ Text Color: Dark Gray (#333333)
 Button Color: Navy Blue with hover in Light Teal
 
 
+### Day 4 
+
+Today we are learning in figma. Where we are building the mockup for our website. We leant about desining a navbar. So we try to use the same technique for 
+making the navbar in our code section.
+
+
 
 
 
